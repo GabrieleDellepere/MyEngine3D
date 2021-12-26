@@ -452,7 +452,6 @@ public:
 
 	void DrawLine(int x1, int y1, int x2, int y2, short c = 0x2588, short col = 0x000F)
 	{
-
 		int x, y, dx, dy, dx1, dy1, px, py, xe, ye, i;
 		dx = x2 - x1; dy = y2 - y1;
 		dx1 = abs(dx); dy1 = abs(dy);
